@@ -1,4 +1,4 @@
-const api_url = "https://api.quotable.io/random";
+const api_url = ""; //copy this api link in api_url to work : https://api.quotable.io/random
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 
