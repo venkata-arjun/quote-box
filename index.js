@@ -16,14 +16,6 @@ async function getQuote() {
     }
 }
 
-// Function to tweet the displayed quote
-function tweet() {
-    window.open(
-        "https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote.innerHTML + " ~ by " + author.innerHTML),
-        "Tweet Window",
-        "width=600,height=400"
-    );
-}
 
 // Fetch a quote when the page loads
 getQuote();
